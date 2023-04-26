@@ -18,15 +18,6 @@
 <body>
 
   <form>
-    <label for="message">*Mesaj</label>
-    <textarea
-      name="message"
-      id="message"
-      cols="30"
-      rows="4"
-      placeholder="Mesaj"
-      required
-    ></textarea>
 
     <label for="name">*Nume</label>
     <input
@@ -39,7 +30,7 @@
       required
     > <br>
 
-    <label for="surname">Prenume</label>
+    <label for="surname">*Prenume</label>
     <input
       type="text"
       name="surname"
@@ -48,7 +39,32 @@
       minlength="5"
       maxlength="30"
       required
-    >
+    > <br>
+
+    <label for="message">*Mesaj</label>
+    <textarea
+      name="message"
+      id="message"
+      cols="30"
+      rows="4"
+      placeholder="Mesaj"
+      required
+    ></textarea> <br>
+
+    <label for="details">Detalii</label>
+    <textarea
+      name="details"
+      id="details"
+      cols="30"
+      rows="8"
+      placeholder="Detalii"
+    ></textarea> <br> <br>
+
+    <button
+      type="submit"
+      name="submit"
+    >Trimite</button>
+
   </form>
   <div
     class="pixeltab-host"
