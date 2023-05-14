@@ -45,10 +45,13 @@ body {
 }
 
 .section-title {
+  top: 8px;
   background-color: green;
   color: white;
   text-align: center;
   position: sticky;
   offset: 8px;
   padding-top: 8px;
+  padding-bottom: 8px;
+  z-index: 1;
 }
