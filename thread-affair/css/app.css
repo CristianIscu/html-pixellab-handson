@@ -365,31 +365,49 @@ a {
 
 .footer-support {
   display: inline-block;
-  font-size: 17px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
 .footer-support ul {
   display: inline-flex;
+  margin-left: 48px;
+  margin-top: 54px;
+  margin-right: 48px;
+  margin-bottom: 40px;
 }
 
 .footer-support ul li {
-  margin: 35px 48px 25px 48px;
+  margin-right: 28px;
   text-align: center;
 }
 
 .footer-support a i[class*='fa-'] {
   color: #ff6b6b;
-  font-size: 41px;
+  font-size: 45px;
   margin-bottom: 10px;
+}
+
+.footer-contact {
+  position: relative;
+  left: 375px;
+  top: -105px;
 }
 
 .footer-contact h1 {
   width: 184px;
   height: 19px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.footer-contact h1 span {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .footer-contact p {
-  width: 259px;
+  width: 310px;
   height: 53px;
+  font-size: 14px;
 }
