@@ -292,11 +292,28 @@ a {
 .header-cart {
   display: inline-flex;
   align-items: center;
+  position: relative;
 }
 
 .header-cart i:first-child {
   color: #000;
   font-size: 32px;
+}
+
+.header-cart .cart-qty {
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  height: 21px;
+  padding: 0 8px;
+  border-radius: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -9px;
+  right: -12px;
 }
 
 .header-primary {
@@ -342,72 +359,111 @@ a {
 }
 
 .footer-primary {
-  height: 322px;
-  background-color: #1b1927;
+  background: #1b1927 url('../images/banners/banner-06.jpg') no-repeat right
+    center / 477px;
   color: #aeaeae;
+  text-transform: uppercase;
+  padding: 50px;
+  color: #aeaeae;
+  font-weight: 300;
 }
 
 .footer-menu {
   display: flex;
-  width: 803px;
-  font-size: 14px;
+  gap: 60px;
+  margin-bottom: 40px;
 }
 
 .footer-menu ul {
-  margin: 49px 10px 10px 48px;
-  text-transform: uppercase;
+  width: 128px;
 }
 
-.footer-menu ul li {
-  margin-top: 5px;
-  margin-bottom: 5px;
+.footer-menu li {
+  margin-bottom: 8px;
 }
 
 .footer-support {
   display: inline-block;
-  font-size: 14px;
-  text-transform: uppercase;
+  margin-right: 153px;
+}
+
+.footer-support a {
+  display: block;
 }
 
 .footer-support ul {
-  display: inline-flex;
-  margin-left: 48px;
-  margin-top: 54px;
-  margin-right: 48px;
-  margin-bottom: 40px;
-}
-
-.footer-support ul li {
-  margin-right: 28px;
+  display: flex;
+  gap: 30px;
   text-align: center;
 }
 
-.footer-support a i[class*='fa-'] {
+.footer-support [class*='fa-'] {
   color: #ff6b6b;
-  font-size: 45px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  display: block;
 }
 
 .footer-contact {
-  position: relative;
-  left: 375px;
-  top: -105px;
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 .footer-contact h1 {
-  width: 184px;
-  height: 19px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
+  margin-bottom: 8px;
 }
 
 .footer-contact h1 span {
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
 }
 
 .footer-contact p {
-  width: 310px;
-  height: 53px;
-  font-size: 14px;
+  text-transform: initial;
+  line-height: 22px;
 }
+
+.footer-contact a[href^='mailto:'] {
+  color: #ff6b6b;
+}
+
+.footer-secondary {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.footer-secondary p {
+  margin-bottom: 8px;
+}
+
+.footer-secondary p img {
+  vertical-align: bottom;
+}
+
+/* footer */
+
+/* homepage */
+
+.content-main section header {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content-main section header h1 {
+  font-size: 40px;
+  color: #292929;
+}
+
+.content-main section header h1 span {
+  font-weight: 500;
+}
+
+.home-payment ul {
+  display: flex;
+  width: 320px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+/* /homepage */
