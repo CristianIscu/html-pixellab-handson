@@ -336,6 +336,7 @@ table {
 
 body {
   font-family: 'Playfair Display', 'sans-serif';
+  margin: 0 auto;
   font-size: 22px;
   color: #2b2b2b;
   max-width: 1920px;
@@ -418,65 +419,4 @@ a {
   font-size: 19px;
   color: #e8e8e8;
   text-transform: uppercase;
-}
-
-/* footer */
-.footer-primary {
-  display: flex;
-  gap: 92px;
-  height: 249px;
-  background-color: #e8e8e8;
-}
-
-.footer-menu {
-  height: 156px;
-  width: 964px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 284px;
-  font-size: 22px;
-}
-
-.footer-menu ul {
-  margin-top: 40px;
-}
-
-.footer-menu li {
-  margin-bottom: 12px;
-}
-
-.newsletter-form {
-  margin-top: 34px;
-  position: relative;
-}
-
-.newsletter-form p {
-  margin-bottom: 12px;
-  font-size: 22px;
-}
-
-.newsletter-form input {
-  width: 245px;
-  height: 20px;
-}
-
-.newsletter-form .newsletter-input {
-  display: block;
-  margin-bottom: 4px;
-}
-
-.newsletter-form button {
-  font-size: 12px;
-  width: 75px;
-  height: 25px;
-  text-transform: uppercase;
-}
-
-.footer-secondary ul {
-  display: flex;
-  gap: 15px;
-  position: absolute;
-  right: 228px;
-  top: 360px;
 }
