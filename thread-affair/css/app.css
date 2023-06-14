@@ -453,6 +453,7 @@ a {
 .banner-main .banner-main-inner {
   height: 100%;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: center;
   padding-left: 50px;
@@ -493,6 +494,10 @@ a {
   border: 2px solid #ff6b6b;
   border-radius: 37px;
   transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.banner-main-inner > div {
+  text-align: center;
 }
 
 .banner-main-inner a:hover {
