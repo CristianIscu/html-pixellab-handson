@@ -352,6 +352,10 @@ a {
   max-width: 1356px;
 }
 
+header {
+  margin-bottom: 30px;
+}
+
 .header-secondary {
   height: 500px;
   background: url(../images/banner/banner.png) no-repeat center;
@@ -421,8 +425,6 @@ a {
 /* header-primary */
 .header-primary {
   background-color: #2b2b2b;
-  margin-bottom: 20px;
-  margin-bottom: 30px;
 }
 
 .nav-primary ul {
@@ -563,7 +565,6 @@ a {
   padding: 10px;
   font-family: 'Roboto';
   text-align: center;
-  margin-bottom: 110px;
   transition: color 0.2s linear, background-color 0.2s linear;
 }
 
@@ -576,7 +577,7 @@ a {
 
 .footer {
   background-color: #e8e8e8;
-  padding-top: 10px;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 
@@ -587,18 +588,15 @@ a {
 
 .footer-contact {
   line-height: 30px;
-  padding-top: 65px;
 }
 
 .footer-nav {
   display: flex;
-  align-items: center;
   gap: 200px;
   line-height: 30px;
 }
 
 .footer-connect {
-  margin-top: 30px;
 }
 
 .footer-newsletter input[type='email'] {
